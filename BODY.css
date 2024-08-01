@@ -1,0 +1,171 @@
+body {
+    background-color: #FFFBDB;
+}
+
+body {
+    font-family: Stencil Std, fantasy;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: rgb(255, 131, 218);
+  } 
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: rgb(150, 243, 107);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: rgb(151, 132, 238);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(238, 132, 181);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #7dcfff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgb(113, 115, 230);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+
+
+
+
+
+
+
+
+header {
+    padding: 1rem;
+    text-align: center;
+    font-family: Stencil Std, fantasy;
+    color: #2D2A32;
+    font-size: 20px;
+    border: 3px;
+    margin: 10px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    box-sizing: border-box;
+  }
+
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav ul li {
+    display: list-item;
+    margin: center;
+}
+
+nav ul li a {
+    color: #3F4045;
+    font-size: 25px;
+    text-decoration: #FFB0D1 wavy underline;;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    margin: 1rem;
+    text-align: center;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form {
+    display: grid;
+    gap: 1rem;
+}
+
+form label {
+    display: block;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+    border: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #FFFBDB;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-sizing: border-box;
+}
